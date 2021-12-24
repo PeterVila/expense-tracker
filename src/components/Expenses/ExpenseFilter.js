@@ -3,7 +3,6 @@ import "./ExpenseFilter.scss";
 const ExpensesFilter = (props) => {
 
   const filterChangeHandler = (event) => {
-    console.log(event.target.value);
     props.filterChangeHandler(event.target.value);
   };
 
@@ -14,7 +13,7 @@ const ExpensesFilter = (props) => {
         <select value={props.selected} onChange={filterChangeHandler}>
           <option value="2021">2021</option>
           <option value="2022">2022</option>
-          <option value="2022">2023</option>
+          <option value="2023">2023</option>
         </select>
       </div>
     </div>
