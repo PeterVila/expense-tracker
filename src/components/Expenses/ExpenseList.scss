@@ -4,4 +4,13 @@
   margin: 2rem auto;
   width: 50rem;
   max-width: 95%;
+
+  & button {
+    border-radius: 0.75rem;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    background-color: #1CBE7B;
+    font-weight: bold;
+  }
 }

@@ -8,7 +8,7 @@ const ExpensiveItem = (props) => {
   const [title, setTitle] = useState(props.title);
   const clickHandler = () => {
     setTitle('Updated');
-    console.log(title);
+    setTitle(prompt("Please enter a new title"))
   };
 
   return (
